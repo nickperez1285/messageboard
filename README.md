@@ -2,6 +2,8 @@
 
 A react app to create threaded comments for discussion in a blog post.
 
+> Hosted demo: https://ajithr.github.io/react-discussion-comments/
+
 ## Prerequisites
 
 * Node.js
