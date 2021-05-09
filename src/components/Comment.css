@@ -1,0 +1,51 @@
+li.comment-item {
+    box-shadow: 0 6px 16px 0 rgb(20 12 162 / 8%);
+    background: #fff;
+    margin: 30px 0px;
+    padding: 0px 30px;
+}
+
+li.comment-item.nested {
+    box-shadow: none;
+    margin: 0px;
+}
+
+li.comment-item article {
+    padding: 20px 0px;
+    margin-right: 20px;
+}
+
+article.has-child {
+    border-bottom: 1px solid #C8C6C4;
+}
+
+li.comment-item article header {
+    padding: 15px 0px;
+}
+
+.user-icon {
+    margin-right: 10px;
+    color: #005DA6;
+}
+
+.user-name {
+    font-weight: 700;
+    font-size: 20px;
+    color: #005DA6;
+    margin-right: 30px;
+}
+
+.log-time {
+    color: #737170;
+    font-weight: 400;
+}
+
+.reply {
+    color: #005da6;
+    cursor: pointer;
+}
+
+.reply-icon {
+    color: #005da6;
+    margin-right: 10px;
+}

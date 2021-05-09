@@ -1,0 +1,21 @@
+form {
+    margin: 20px 0px;
+}
+
+textarea {
+    width: 100%;
+}
+
+.submit-btns {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.submit-btns button {
+    width: 150px;
+}
+
+.submit-btns button:first-child {
+    margin-right: 25px;
+    margin-left: auto;
+}
