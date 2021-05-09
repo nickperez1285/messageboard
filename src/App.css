@@ -2,3 +2,9 @@
   width: 65%;
   margin: 0px auto 50px auto;
 }
+
+@media only screen and (max-width: 768px) {
+  .App {
+    width: 90%;
+  }
+}
