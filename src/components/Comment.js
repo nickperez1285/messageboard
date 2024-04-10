@@ -13,8 +13,8 @@ const Comment = ({ commentInfo, isRootComment }) => {
         <li className={isRootComment ? 'comment-item' : 'comment-item nested'}>
             <article className={commentInfo.children ? 'has-child' : ''}>
                 <header>
-                    <span className='user-icon'><FontAwesomeIcon icon={faUser} /></span>
-                    <span className='user-name'>{commentInfo.userName}</span>
+                    {/* <span className='user-icon'><FontAwesomeIcon icon={faUser} /></span>
+                    <span className='user-name'>{commentInfo.userName}</span> */}
                     <span className='log-time'>{commentInfo.time}</span>
                 </header>
                 <div className="comment">

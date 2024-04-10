@@ -10,8 +10,8 @@ let CommentDetails = () => {
 
     return (
         <section className="comment-details">
-            <div className="comment-count"><b>{comments.length} comments</b></div>
-            <button className="btn btn-primary" onClick={() => setNewComment(true)}>Leave a comment</button>
+            {/* <div className="comment-count"><b>{comments.length} comments</b></div> */}
+            <button className="btn btn-primary" onClick={() => setNewComment(true)}>Create New Thread</button>
             {isNewComment && <NewComment onCancel={() => setNewComment(false)} isNewComment={true}></NewComment>}
         </section>
     )
